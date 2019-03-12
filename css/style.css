@@ -23,34 +23,34 @@ body {
 }
 
 .my-resume{
-   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Niramit', sans-serif;
-   background-color: #f1eee1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Niramit', sans-serif;
+  background-color: #f1eee1;
 }
 
 .header-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 1024px;
-    background-color: #fffbe6;
-    color: #19282B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1024px;
+  background-color: #fffbe6;
+  color: #19282B;
 }
 
 .header-label{
-    flex:1;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 4%;
-    width: 1024px;
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+  width: 1024px;
 }
 
 .header-label h1{
-   font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 /*Navigation*/
@@ -60,50 +60,53 @@ body {
   padding-left: 0.3em;
   padding-right: 0.3em;
   width: 1024px;
-	background-color: #327185;
+  background-color: #327185;
 }
+
 .top-menu-list{
-  list-style: none;
   display: flex;
   flex: 2;
-  padding-left: 0px;
-  margin-top: 1em;
   justify-content: center;
   align-items: center;
+  padding-left: 0px;
+  margin-top: 1em;
   margin-left: 1.2em;
+  list-style: none;
 }
+
 .top-menu-list li{
   display: inline;
   padding: .4% .8% .4% .8%;
-	border-right: 1px solid black;
-	border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
+
 .top-menu-list li a{
-	color: white;
-	font-size: 1.8em;
+  color: white;
+  font-size: 1.8em;
 }
 
 .top-menu-list a:hover{
-	color: #E7B13C;
+  color: #E7B13C;
 }
 
 .top-menu-list li:nth-child(1){
-	border-left: 0 solid black;
+  border-left: 0 solid black;
 }
 .top-menu-list li:nth-child(5){
-	border-right: 0 solid black;
+  border-right: 0 solid black;
 }
 
 /*End Navigation*/
 /* Content about-me*/
 
 .main-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   width: 1024px;
-   background-color:  #fffbe6 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1024px;
+  background-color:  #fffbe6 ;
 }
 .wrapper-about-me{
   display: flex;
@@ -125,17 +128,18 @@ body {
 }
 
 .content-about-me p{
-	padding-top: 3%;
-   font-size: 1.6em;
+  padding-top: 3%;
+  font-size: 1.6em;
 }
+
 .photo{
- flex:.3;
- display: flex;
+  flex:.3;
+  display: flex;
 }
 .photo-description{
+  font-size: 1.4em;
   text-align: center;
-	font-size: 1.4em;
-	font-style: italic;
+  font-style: italic;
 }
 
 /* End Content about-me*/
@@ -156,10 +160,10 @@ body {
   font-size: 1.6em;
 }
 .content-education h2{
-   border-bottom: 5px solid #EBCFA8;
-   margin-bottom: 6%;
-   padding-bottom: 1%;
-   font-size: 1.6em;
+  margin-bottom: 6%;
+  padding-bottom: 1%;
+  font-size: 1.6em;
+  border-bottom: 5px solid #EBCFA8;
 }
 
 /* End Content education*/
@@ -175,17 +179,16 @@ body {
 .content-skills{
   display: flex;
   justify-content: center;
-
+  flex-direction: row;
   width: 1024px;
   font-size: 1.6em;
-  flex-direction: row;
 }
 
 .skills{
   flex: 1;
   display: flex;
   flex-direction: column;
-   padding-right: 4%;
+  padding-right: 4%;
 }
 
 .experience{
@@ -195,12 +198,12 @@ body {
   padding-left: 4%;
 }
 .list-slills li{
-   padding: 3px;
-   padding-left: 0.5rem;
+  padding: 3px;
+  padding-left: 0.5rem;
 }
 .content-skills h2{
-   border-bottom: 5px solid #EBCFA8;
-   margin-bottom: 6%;
+  border-bottom: 5px solid #EBCFA8;
+  margin-bottom: 6%;
 }
 
 /* End content-skills*/
@@ -219,10 +222,10 @@ body {
   font-size: 1.6em;
 }
 .content-english h2{
-   border-bottom: 5px solid #EBCFA8;
-   margin-bottom: 3%;
-   padding-bottom: 1%;
+  border-bottom: 5px solid #EBCFA8;
+  margin-bottom: 3%;
+  padding-bottom: 1%;
 }
 .content-english p{
-	margin-bottom: 1.5%;
+  margin-bottom: 1.5%;
 }
