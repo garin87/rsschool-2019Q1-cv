@@ -152,6 +152,7 @@ body {
   width: 1024px;
   border-bottom: 2px solid gray;
 }
+
 .content-education{
   display: flex;
   justify-content: center;
@@ -160,12 +161,15 @@ body {
   font-size: 1.6em;
 }
 .content-education h2{
-  margin-bottom: 6%;
+  margin-bottom: 4%;
   padding-bottom: 1%;
   font-size: 1.6em;
   border-bottom: 5px solid #EBCFA8;
 }
-
+.content-education h4{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 /* End Content education*/
 /* content-skills*/
 
