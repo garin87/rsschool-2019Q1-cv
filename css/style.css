@@ -207,7 +207,7 @@ body {
 }
 .content-skills h2{
   border-bottom: 5px solid #EBCFA8;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
 }
 
 /* End content-skills*/
@@ -227,7 +227,7 @@ body {
 }
 .content-english h2{
   border-bottom: 5px solid #EBCFA8;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   padding-bottom: 1%;
 }
 .content-english p{
